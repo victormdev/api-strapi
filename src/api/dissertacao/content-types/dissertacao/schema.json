@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dissertacaos",
+  "info": {
+    "singularName": "dissertacao",
+    "pluralName": "dissertacaos",
+    "displayName": "dissertacao"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "url_dissertacao": {
+      "type": "string"
+    },
+    "nome_dissertacao": {
+      "type": "string"
+    },
+    "autoria_dissertacao": {
+      "type": "string"
+    }
+  }
+}

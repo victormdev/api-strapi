@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "livros",
+  "info": {
+    "singularName": "livro",
+    "pluralName": "livros",
+    "displayName": "livro"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "url_livro": {
+      "type": "string"
+    },
+    "nome_livro": {
+      "type": "string"
+    },
+    "autoria_livro": {
+      "type": "string"
+    }
+  }
+}

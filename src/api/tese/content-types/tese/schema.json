@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "teses",
+  "info": {
+    "singularName": "tese",
+    "pluralName": "teses",
+    "displayName": "tese"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "url_tese": {
+      "type": "string"
+    },
+    "nome_tese": {
+      "type": "string"
+    },
+    "autoria_tese": {
+      "type": "string"
+    }
+  }
+}
