@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "manifestos",
+  "info": {
+    "singularName": "manifesto",
+    "pluralName": "manifestos",
+    "displayName": "manifesto"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "url_manifesto": {
+      "type": "string"
+    },
+    "nome_manifesto": {
+      "type": "string"
+    }
+  }
+}
