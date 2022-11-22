@@ -1,5 +1,4 @@
 module.exports = ({ env }) => ({
-  url:this.env('https://api-anpsinep.herokuapp.com/'),
   host: env('HOST', '0.0.0.0'),
   port: env.int('PORT', 1337),
   app: {
