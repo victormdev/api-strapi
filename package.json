@@ -1,5 +1,5 @@
 {
-  "name": "api-anpsinep",
+  "name": "anpsinep-strapi",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -20,7 +20,7 @@
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "99bc8eff-e962-48bb-8a7b-06a90f9562b2"
+    "uuid": "70ea7ec1-4ab6-478a-b3aa-caf80f1bdc9d"
   },
   "engines": {
     "node": ">=14.19.1 <=18.x.x",
