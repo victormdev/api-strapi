@@ -4,7 +4,8 @@
   "info": {
     "singularName": "noticia",
     "pluralName": "noticias",
-    "displayName": "noticia"
+    "displayName": "noticia",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -27,14 +28,23 @@
       "type": "date"
     },
     "foto": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "resume_conteudo": {
+      "type": "string",
+      "maxLength": 160,
+      "unique": false
+    },
+    "url_photo": {
+      "type": "string"
     }
   }
 }
