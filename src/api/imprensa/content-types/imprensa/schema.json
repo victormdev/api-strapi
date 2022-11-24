@@ -4,7 +4,8 @@
   "info": {
     "singularName": "imprensa",
     "pluralName": "imprensas",
-    "displayName": "imprensa"
+    "displayName": "imprensa",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -14,21 +15,25 @@
     "titulo_imprensa": {
       "type": "string"
     },
-    "data_imprensa": {
-      "type": "string"
-    },
     "descricao_imprensa": {
       "type": "string"
     },
     "foto_imprensa": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
+    },
+    "tste": {
+      "type": "string"
+    },
+    "data_imprensa": {
+      "type": "date"
     }
   }
 }
