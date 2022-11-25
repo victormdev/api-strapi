@@ -42,9 +42,6 @@
       "type": "string",
       "maxLength": 160,
       "unique": false
-    },
-    "url_photo": {
-      "type": "string"
     }
   }
 }
